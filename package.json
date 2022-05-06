@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
-    "exercise1": "ts-node-dev ./src/exercise1.ts",
-    "exercise2": "ts-node-dev ./src/exercise2.ts",
-    "exercise3": "ts-node-dev ./src/exercise3.ts",
-    "exercise4": "ts-node-dev ./src/exercise4.ts"
+    "part1:exercise1": "ts-node-dev ./src/part1/exercise1.ts",
+    "part1:exercise2": "ts-node-dev ./src/part1/exercise2.ts",
+    "part1:exercise3": "ts-node-dev ./src/part1/exercise3.ts",
+    "part1:exercise4": "ts-node-dev ./src/part1/exercise4.ts",
+    "part2:exercise1": "ts-node-dev ./src/part2/exercise1.ts",
+    "part2:exercise2": "ts-node-dev ./src/part2/exercise2.ts"
   },
   "keywords": [],
   "author": "daguttt <dagutmu667@gmail.com>",
