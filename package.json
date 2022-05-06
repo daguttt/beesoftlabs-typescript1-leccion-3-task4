@@ -1,0 +1,20 @@
+{
+  "name": "tarea4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "ejercicio1": "ts-node-dev ./src/ejercicio1.ts",
+    "ejercicio2": "ts-node-dev ./src/ejercicio2.ts",
+    "ejercicio3": "ts-node-dev ./src/ejercicio3.ts",
+    "ejercicio4": "ts-node-dev ./src/ejercicio4.ts"
+  },
+  "keywords": [],
+  "author": "daguttt <dagutmu667@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.4"
+  }
+}
