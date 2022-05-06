@@ -4,7 +4,7 @@ const myPromise2: Promise<number> = new Promise((success, reject) => {
   }, 1000);
 });
 
-async function getResult() {
+async function getResult2() {
   const result: number = await myPromise2;
 
   const result2 = result + 2;
@@ -12,4 +12,4 @@ async function getResult() {
   console.log("Result:", result2); // log: 'Result: 3'
 }
 
-getResult();
+getResult2();
